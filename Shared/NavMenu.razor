@@ -2,7 +2,7 @@
 @inject NavigationManager NavigationManager
 
 <MudNavMenu>
-    @if(AppState.Lists.Count = 0){
+    @if(AppState.Lists.Count == 0){
         <NoTaskFound />
     }
 

@@ -236,9 +236,62 @@
         }
       },
       {
-        "HashCode": 1873588011,
+        "HashCode": -2127395750,
         "Kind": "Components.Component",
-        "Name": "balta.Pages.Create",
+        "Name": "balta.Pages.TodoLists.Details",
+        "AssemblyName": "balta",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Details"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "balta.Pages.TodoLists.Details"
+        }
+      },
+      {
+        "HashCode": 379042817,
+        "Kind": "Components.Component",
+        "Name": "balta.Pages.TodoLists.Details",
+        "AssemblyName": "balta",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "balta.Pages.TodoLists.Details"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "balta.Pages.TodoLists.Details",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2092565075,
+        "Kind": "Components.Component",
+        "Name": "balta.Pages.TodoLists.Create",
         "AssemblyName": "balta",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -248,23 +301,23 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "balta.Pages.Create"
+          "Common.TypeName": "balta.Pages.TodoLists.Create"
         }
       },
       {
-        "HashCode": 318438968,
+        "HashCode": -1614341350,
         "Kind": "Components.Component",
-        "Name": "balta.Pages.Create",
+        "Name": "balta.Pages.TodoLists.Create",
         "AssemblyName": "balta",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "balta.Pages.Create"
+            "TagName": "balta.Pages.TodoLists.Create"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "balta.Pages.Create",
+          "Common.TypeName": "balta.Pages.TodoLists.Create",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74706,6 +74759,16 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\Pages\\TodoLists\\Create.razor",
+      "TargetPath": "Pages\\TodoLists\\Create.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\Pages\\TodoLists\\Details.razor",
+      "TargetPath": "Pages\\TodoLists\\Details.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
@@ -74713,11 +74776,6 @@
     {
       "FilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\Pages\\Create.razor",
-      "TargetPath": "Pages\\Create.razor",
       "FileKind": "component"
     },
     {

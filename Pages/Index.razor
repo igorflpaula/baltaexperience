@@ -1,5 +1,8 @@
 ﻿@page "/"
+@using baltaexperience
 
 <PageTitle>Index</PageTitle>
 
-<h1>Minhas Tarefas</h1>
+@if (AppState.Lists.Count == 0){
+    <NoTaskFound />
+}

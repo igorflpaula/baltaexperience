@@ -8,7 +8,7 @@ public static class AppState{
 
     public static event EventHandler<EventArgs> OnChanged;
 
-    public static void NotifiyChanges(object? sender, EventArgs args){
+    public static void NotifyChanges(object? sender, EventArgs args){
         OnChanged.Invoke(sender, args);
     }
 }

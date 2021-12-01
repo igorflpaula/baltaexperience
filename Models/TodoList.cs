@@ -9,5 +9,5 @@ public class TodoList{
     [Required(ErrorMessage = "Campo obrigatório")]
     public string Title { get; set;}
 
-    public List<TodoItem> Items { get; set;} = new();
+    public List<TodoItem> Items { get; set; } = new();
 }
