@@ -11,41 +11,37 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = balta
 build_property.RootNamespace = balta
-build_property.ProjectDir = d:\Faculdade\Programação\Blazor\baltaexperience\
+build_property.ProjectDir = D:\Faculdade\Programação\blazor\baltaexperience\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Faculdade\Programação\Blazor\baltaexperience
+build_property.MSBuildProjectDirectory = D:\Faculdade\Programação\blazor\baltaexperience
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Faculdade/Programação/Blazor/baltaexperience/App.razor]
+[D:/Faculdade/Programação/blazor/baltaexperience/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Faculdade/Programação/Blazor/baltaexperience/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/Faculdade/Programação/blazor/baltaexperience/Pages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Faculdade/Programação/Blazor/baltaexperience/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Faculdade/Programação/Blazor/baltaexperience/Pages/Index.razor]
+[D:/Faculdade/Programação/blazor/baltaexperience/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Faculdade/Programação/Blazor/baltaexperience/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[D:/Faculdade/Programação/blazor/baltaexperience/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Faculdade/Programação/Blazor/baltaexperience/_Imports.razor]
+[D:/Faculdade/Programação/blazor/baltaexperience/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/Programação/blazor/baltaexperience/Shared/NoTaskFound.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vVGFza0ZvdW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/Programação/blazor/baltaexperience/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Faculdade/Programação/Blazor/baltaexperience/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-45p2le85gw
-
-[d:/Faculdade/Programação/Blazor/baltaexperience/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ktwofqtrrm

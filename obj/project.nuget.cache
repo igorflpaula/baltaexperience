@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iEvKGi3ar5f1oMvyDSbEfNyTFG0ZVc8h1v/2/1n4ddX+qu9JhJdOi9UEXuU76O+yGh45hi+iOmZYFGCHM+FQsg==",
+  "dgSpecHash": "5fdyLkBQke5X7o9kPuJwsvgu5pUPcRNykQlYXPNUV03pfMigMjjbd9FNiARbnXJmbD34bjvGLrivB4+NzcWoXQ==",
   "success": true,
-  "projectFilePath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\balta.csproj",
+  "projectFilePath": "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\balta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igor_\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
@@ -28,6 +28,7 @@
     "C:\\Users\\igor_\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.0\\microsoft.jsinterop.webassembly.6.0.0.nupkg.sha512",
+    "C:\\Users\\igor_\\.nuget\\packages\\mudblazor\\6.0.2\\mudblazor.6.0.2.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
     "C:\\Users\\igor_\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

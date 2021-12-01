@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\balta.csproj": {}
+    "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\balta.csproj": {}
   },
   "projects": {
-    "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\balta.csproj": {
+    "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\balta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\balta.csproj",
+        "projectUniqueName": "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\balta.csproj",
         "projectName": "balta",
-        "projectPath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\balta.csproj",
+        "projectPath": "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\balta.csproj",
         "packagesPath": "C:\\Users\\igor_\\.nuget\\packages\\",
-        "outputPath": "d:\\Faculdade\\Programação\\Blazor\\baltaexperience\\obj\\",
+        "outputPath": "D:\\Faculdade\\Programação\\blazor\\baltaexperience\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igor_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [

@@ -1,0 +1,49 @@
+@page "/lists/add"
+@using baltaexperience.Models
+@using Microsoft.AspNetCore.Components
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Nova Lista</PageTitle>
+
+<h1>Nova Lista</h1>
+
+<br />
+<MudGrid>
+    <MudItem xs=12>
+        <MudGrid Justify="Justify.Center">
+            <MudItem xs="12" sm="12" md="6" lg="4" xl="4" xxl="4">
+                <EditForm Model="@model" OnValidSubmit="@HandleValidSubmit">
+                    <MudCard>
+                        <MudCardContent>
+                            <h1>Criar nova lista</h1>
+
+                            <DataAnnotationsValidator />
+                            <ValidationSummary />
+
+                            <MudTextField Label="Title" Class="mt-3" @bind-Value="model.Title" For="@(() => model.Title)" />
+                        </MudCardContent>
+
+                        <MudCardActions>
+                            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">
+                            Salvar
+                            </MudButton>
+                        </MudCardActions>
+
+                    </MudCard>
+                </EditForm>
+            </MudItem>
+        </MudGrid>
+    </MudItem>
+</MudGrid>
+
+@code{
+    private TodoList model = new();
+
+    private void HandleValidSubmit(){
+        model.Id = AppState.Lists.Count +1;
+        AppState.Lists.Add(model);
+        AppState.NotifyChanges(model, null);
+        NavigationManager.NavigateTo($"/lists/{model.Id}");
+    }
+}
