@@ -45,6 +45,8 @@
         model.Id = AppState.Lists.Count +1;
         AppState.Lists.Add(model);
         AppState.NotifyChanges(model, null);
+        Console.WriteLine("teste");
         NavigationManager.NavigateTo($"/lists/{model.Id}");
+        Console.WriteLine("teste2");
     }
 }
